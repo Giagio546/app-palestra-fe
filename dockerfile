@@ -8,4 +8,4 @@ RUN rm -rf node_modules
 RUN rm package-lock.json   
 RUN npm install
 EXPOSE 4200
-RUN npm start
+CMD npm start
