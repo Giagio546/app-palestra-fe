@@ -7,4 +7,5 @@ RUN npm install -g npm@latest
 RUN rm -rf node_modules    
 RUN rm package-lock.json   
 RUN npm install
-CMD npm start
+EXPOSE 4200
+CMD ng serve --host 0.0.0.0 --disable-host-check
