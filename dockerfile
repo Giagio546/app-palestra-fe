@@ -7,5 +7,4 @@ RUN npm install -g npm@latest
 RUN rm -rf node_modules    
 RUN rm package-lock.json   
 RUN npm install
-EXPOSE 4200
 CMD npm start
