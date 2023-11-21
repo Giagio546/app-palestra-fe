@@ -9,4 +9,4 @@ RUN rm -rf node_modules
 RUN rm package-lock.json   
 RUN npm install
 EXPOSE 4200
-CMD ["ng", "serve", "--host", "0.0.0.0"]
+RUN npm start
